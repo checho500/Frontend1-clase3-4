@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+header {
+    background:#f3f3f3;
+    text-align: center;
+    margin:0;
+}
+header img {
+    margin: 25px;
+    width: 250px;
+}
+header h1 {
+    margin: 0;
+    padding: 15px 0;
+    background:#4d4d4d;
+    font-family: sans-serif;
+    font-size: 20pt;
+    letter-spacing:5pt;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+main {
+    margin: 50px 20% 0 20%;
+}
+section h2 {
+    color: rgb(255, 255, 255);
+    background: #636262cc;
+    padding: 8px 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+footer p {
+    background: #746969;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+}
+#DatosPersonales {
+    list-style: none;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+#FormacionAcademica {
+    font-family: sans-serif;
+    line-height: 20px;
+}
+#FormacionAcademica dt {
+    margin-top: 10px;
+}
+#ExperienciaLaboral {
+    font-family: sans-serif;
+    line-height: 20px;
+}
+#ExperienciaLaboral dt{
+    margin-top: 10px;
+}
