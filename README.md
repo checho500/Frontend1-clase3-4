@@ -1,1 +1,9 @@
-# Frontend1-clase3-4
+# Frontend-I
+
+
+En esta materia nos proponemos adquirir las tecnologías que necesitamos para cumplir el rol de desarrollador front-end
+
+##Ejercicios
+
+### Lemon Pie
+### Curriculum vitae
