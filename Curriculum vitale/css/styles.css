@@ -8,7 +8,7 @@ header {
 }
 header img {
     margin: 25px;
-    width: 250px;
+    width: 100%;
 }
 header h1 {
     margin: 0;
@@ -45,8 +45,8 @@ footer p {
     font-size: 25px;
     line-height: 20px;
 }
-#DatosPersonales {
-    list-style: none;
+.DatosPersonales {
+    list-style-type: none;
     font-family: sans-serif;
     line-height: 20px;
 }
