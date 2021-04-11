@@ -7,3 +7,4 @@ En esta materia nos proponemos adquirir las tecnologías que necesitamos para cu
 
 - **Lemon Pie:** Ejercicio de sobre el un pagina para mostrar un raceta.  [**ENLACE**](https://checho500.github.io/Frontend-I/Clase-3-4/index.html)
 - **Curriculum vitae:** Ejercicio creando una pagina para un curriculum. [**ENLACE**](https://checho500.github.io/Frontend-I/Curriculum%20vitale/index.html)
+- **Card web:** Ejercicio creando una pagina de cartas de superheroes. [**ENLACE**](https://checho500.github.io/Frontend-I/Cardweb/index.html)
