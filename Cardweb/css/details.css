@@ -30,7 +30,7 @@ header h1 {
 }
 
 main {
-    height: 76.2%;
+    height: 78%;
     width: 100%;
     background-image: url(../img/bd-HarleyQ.png);
     background-size: cover;
@@ -68,8 +68,8 @@ footer p {
     top: 18vh;
     margin: 0 auto;
     background: white;
-    height: 465px;
-    width: 500px;
+    height: 365px;
+    width: 650px;
     border-radius: 20px;
     text-align: center;
 }
