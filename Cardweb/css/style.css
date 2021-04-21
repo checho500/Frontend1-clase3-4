@@ -103,6 +103,9 @@ footer p {
     line-height: 80px;
     border-radius: 40px;
 }
+#add:hover {
+    background-color: #001D2D;
+}
 #card {
     display: inline-block;
     position: relative;

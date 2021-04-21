@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nuevosuper.css">
+    <title>Añadir super</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/Logo.svg" alt="Logo">
+            <h1>Tienda SuperCard</h1>
+        </div>
+        <nav>
+            <a href="Contacto.html">Contacto</a>
+            <a href="Registro.html">Registrarme</a>
+            <a href="Login.html">Ingresar</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div id="titulo">
+                <h3>Añadí tu super!</h3>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="" method="POST">
+                <label for="nombre">*Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="especie">*Especie</label>
+                <select name="especie" id="especie">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <label for="fecha">*Fecha</label>
+                <input type="date" id="fecha" name="fecha">
+                <label for="foto">*Fecha</label>
+                <input type="file" id="foto" name="foto">
+                <label for="descripcion">*Fecha</label>
+                <textarea type="text" id="descripcion" name="descripcion" placeholder="Descripción"></textarea>
+                <div>
+                    <fieldset id="caracteristicas">
+                        <legend>Poderes</legend>
+                        <input type="checkbox" name="poderes" value="volar">
+                        <label for="poderes">Volar</label>
+                        <input type="checkbox" name="poderes" value="superinteligencia">
+                        <label for="poderes">Superinteligencia</label>
+                        <input type="checkbox" name="poderes" value="vista de rayo laser">
+                        <label for="poderes">Vista derayo láser</label>
+                        <input type="checkbox" name="poderes" value="billetera gorda">
+                        <label for="poderes">Billertera gorda</label>
+                    </fieldset>
+                    <hr>
+                    <fieldset id="caracteristicas">
+                        <legend>Tipo depersonaje</legend>
+                        <input type="radio" name="tipodepersonaje"value="Heroe/Heroina">
+                        <label for="tipodepersonaje">Heroe/Heroina</label>
+                        <input type="radio" name="tipodepersonaje" value="Villano/Villana">
+                        <label for="tipodepersonaje">Villano/Villana</label>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>
