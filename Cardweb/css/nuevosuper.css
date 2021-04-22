@@ -4,8 +4,8 @@ footer {
     position: absolute;
     bottom: 0px;
 }
-main div {
-    width: 40%;
+#caja {
+    width: 60%;
     height: 630px;
     margin: 25px auto;
     background: #00669F;
@@ -13,9 +13,9 @@ main div {
     border-radius: 50px;
 }
 #titulo {
-    padding: 20px;
-    height: 20px;
-    
+    padding: 15px;
+    height: 100px;
+    width: 100%;
 }
 #titulo h3 {
     font-family: 'Roboto';
@@ -28,4 +28,33 @@ main div {
     font-weight: 100;
     font-size: 20px;
     color: white;
+}
+#nuevosuper div {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+#nuevosuper label {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 10px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+#nuevosuper input , #nuevosuper select{
+    display: inline-block;
+    width: 40px;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+#foto {
+    height: 10px;
+    width: 40px;
 }

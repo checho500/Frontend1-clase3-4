@@ -23,26 +23,35 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div id="caja">
             <div id="titulo">
                 <h3>Añadí tu super!</h3>
                 <p>Agregá tu personaje favorito completando las opciones.</p>
             </div>
-            <form action="" method="POST">
-                <label for="nombre">*Nombre</label>
-                <input type="text" id="nombre" name="nombre">
-                <label for="especie">*Especie</label>
-                <select name="especie" id="especie">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <label for="fecha">*Fecha</label>
-                <input type="date" id="fecha" name="fecha">
-                <label for="foto">*Fecha</label>
-                <input type="file" id="foto" name="foto">
-                <label for="descripcion">*Fecha</label>
+            <form id="nuevosuper" action="" method="POST">
+                <div>
+                    <label for="nombre">*Nombre
+                        <input type="text" id="nombre" name="nombre">
+                    </label>
+                    <label for="especie">*Especie
+                        <select name="especie" id="especie">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="fecha">*Fecha
+                        <input type="date" id="fecha" name="fecha">
+                    </label>
+                    <label for="foto">*Archivo
+                        <input type="file" id="foto" name="foto">
+                    </label>
+                </div>
+                <div>
+                    <label for="descripcion">*Fecha</label>
                 <textarea type="text" id="descripcion" name="descripcion" placeholder="Descripción"></textarea>
                 <div>
                     <fieldset id="caracteristicas">
@@ -64,6 +73,7 @@
                         <input type="radio" name="tipodepersonaje" value="Villano/Villana">
                         <label for="tipodepersonaje">Villano/Villana</label>
                     </fieldset>
+                </div>
                 </div>
             </form>
         </div>
