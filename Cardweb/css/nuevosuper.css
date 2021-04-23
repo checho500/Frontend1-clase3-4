@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,400&display=swap');
-
-footer {
-    position: absolute;
-    bottom: 0px;
+main {
+    height: 1000px;
 }
 #caja {
-    width: 60%;
-    height: 630px;
-    margin: 25px auto;
+    width: 70%;
+    height: 930px;
+    margin: 0 auto;
     background: #00669F;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
@@ -29,15 +27,29 @@ footer {
     font-size: 20px;
     color: white;
 }
-#nuevosuper div {
+#parte3-1 div, #parte3-2 {
+    display: inline-block;
+    width: 40%;   
+}
+#parte1 , #parte2, #parte3 {
     display: inline-block;
     width: 80%;
     text-align: center;
 }
-#nuevosuper label {
+#nuevosuper{
+    position: relative;
+}
+#parte1 , #parte2{
+    height: 160px;
+}
+#parte2{
+    position: relative;
+    top: -40px;
+}
+#parte1 label, #parte2 label {
     display: inline-block;
-    width: 45%;
-    margin: 10px 10px;
+    width: 43%;
+    margin: 30px 20px;
     font-family: 'Roboto';
     font-weight: 100;
     font-size: 20px;
@@ -45,7 +57,8 @@ footer {
     text-align: left;
 }
 
-#nuevosuper input , #nuevosuper select{
+#parte1 input ,#parte1 select, #fecha {
+    margin-top: 20px;
     display: inline-block;
     width: 40px;
     background-color: white;
@@ -53,8 +66,88 @@ footer {
     width: 100%;
     border-radius: 15px;
     border: 2px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 15px;
 }
-#foto {
-    height: 10px;
-    width: 40px;
+#parte3{
+    position: relative;
+    top: -20px;
+    padding-top: 25px;
+}
+#parte3-1 {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    margin-left: 35px;
+    text-align: left;
+}
+#parte3-1 textarea{
+    padding: 10px;
+    min-width: 86%;
+    max-width: 86%;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 15px;
+}
+#parte3-2 {
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+}
+#parte3-2 hr{
+    margin: 20px 0;
+    color: white;
+}
+#caracteristicas1  h4, #caracteristicas2 h4{
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#caracteristicas1  label{
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    border: none;
+}
+#caracteristicas2  label{
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#caracteristicas1  input, #caracteristicas2 input{
+    margin: 10px 10px 10px 0;
+}
+#nuevosuper button {
+    display: inline-block;
+    margin: 45px;
+    width: 40%;
+    height: 90px;
+    background: #1CD1B0;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 40px;
+    border: none;
+}
+#nuevosuper button:hover {
+    background-color: #001D2D;
+    color: white;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.082);
+}
+.agregararchivo{
+    line-height: 60px;
 }
