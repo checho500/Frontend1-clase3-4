@@ -70,6 +70,10 @@ main {
     font-weight: 100;
     font-size: 15px;
 }
+#parte1 input:hover ,#parte1 select:hover, #fecha:hover {
+    background-color: rgba(201, 201, 201, 0.836);
+    color: white;
+}
 #parte3{
     position: relative;
     top: -20px;

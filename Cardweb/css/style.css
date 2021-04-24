@@ -165,3 +165,8 @@ footer p {
     font-weight: 100;
     font-size: 15px;
 }
+#contenido a:hover{
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+}
