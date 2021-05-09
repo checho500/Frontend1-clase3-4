@@ -95,7 +95,7 @@ nav>a::before {
     width: 15px;
     content:url('../img/patita.svg');
 }
-.hamburger {
+.hamburger,input {
     display: none;
 }
 .user>a>i {
