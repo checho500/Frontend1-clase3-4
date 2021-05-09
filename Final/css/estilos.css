@@ -14,12 +14,14 @@
 }
 
 body {
+    position: absolute;
+    top: 0;
     height: 100vh;
     width: 100vw;
     font-family:'Roboto', sans-serif;
 }
-
 body>div {
+    position: relative;
     width: 100%;
     height: 20px;
     display: flex;
@@ -28,6 +30,7 @@ body>div {
     color: white;
     font-size: 10px;
     line-height: 12px;
+    z-index: 5;
 }
 
 .ofertas {
@@ -48,13 +51,15 @@ body>div {
     line-height: 15px;
 }
 header {
+    position: relative;
     width: 100%;
     height: 62px;
     display: flex;
     padding: 30px;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-principal);
+    background: var(--color-principal);
+    z-index: 5;
 }
 .titulo {
     display: flex;
@@ -64,6 +69,7 @@ header {
     top: 5px;
     height: 18px;
     width: 18px;
+    z-index: 4;
 }
 h1 {
     font-size: 20px;
@@ -107,6 +113,7 @@ main {
 }
 
 section {
+    position: relative;
     height: 100%;
     width: 100%;
     padding: 30px;
@@ -114,6 +121,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    z-index: 1;
 }
 
 h2 {
@@ -160,11 +168,30 @@ footer>p {
 }
 
 @media (max-width: 700px) {
-    nav>a {
-        display: none;
+    nav {
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: var(--color-principal);
+        transition: top;
     }
-    nav>a::before{
-        display: none;
+    .titulo h1{
+        position: relative;
+        z-index: 1;
+    }
+    .titulo h1::before{
+        position: absolute;
+        top: -19px;
+        left: -50px;
+        content: '';
+        background-color: var(--color-principal);
+        width: 150px;
+        height: 67px;
+        z-index: -1;
     }
     .hamburguer{
         position: relative;
@@ -176,11 +203,13 @@ footer>p {
         height: 32px;
         position: absolute;
         top: -7px;
-        left: -5px;
+        left: -12px;
         cursor: pointer;
-        opacity: 0; 
-        z-index: 2; 
-  
+        opacity: 1; 
+        z-index: 6; 
+      }
+      .hamburguer input:checked ~ nav{
+        top: 100px;
     }
     .hamburguer i {
         height: 20px;
