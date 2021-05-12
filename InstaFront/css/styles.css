@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+:root {
+    --colorprincipal:#FAFAFA;
+    --colorsecundario: rgba(34, 34, 34, 0.5);
+    --colorterciario: rgba(0, 0, 0, 0.25);
+    --borde: #222222;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter';
+    background: var(--colorprincipal);
+}
+header {
+    height: 75px;
+    width: 100vw;
+    padding: 17px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    background: #FFFFFF;
+    border-bottom: var(--colorterciario) 0.3px solid;
+    box-shadow: 0px 1px 3px var(--colorterciario) ;
+}
+h1 {
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.buscador {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    grid-column: 2/3;
+    /*border-radius: 5px;*/
+}
+.buscador input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-right: none;
+    border-left: var(--colorterciario) 0.3px solid;
+    border-bottom: var(--colorterciario) 0.3px solid;
+    border-top: var(--colorterciario) 0.3px solid;
+    padding: 10px;
+}
+.buscador button {
+    height: 100%;
+    width: 15%;
+    background: white;
+    border-left: none;
+    border-right: var(--colorterciario) 0.3px solid;
+    border-bottom: var(--colorterciario) 0.3px solid;
+    border-top: var(--colorterciario) 0.3px solid;
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+.buscador input:focus {
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border-right: none;
+    border-left: var(--colorterciario) 0.3px solid;
+    border-bottom: var(--colorterciario) 0.3px solid;
+    border-top: var(--colorterciario) 0.3px solid;
+    background-color: #52525210;
+}
+.buscador input:focus + button {
+    background-color: #52525210;
+    color: var(--colorterciario);
+    font-size: 0.8em;
+}
+
+.usuario-foto{
+    grid-column: 3/4;
+}
+.usuario-foto img{
+    height: 100%;
+    align-content: flex-end;
+}
+main {
+    display: grid;
+    gap: 109px;
+    grid-column: 60% 40%;
+    column-gap: 109px;
+}
+main>section{
+    grid-column: 1/2;
+}
+main>aside {
+    grid-column: 2/3;
+}
