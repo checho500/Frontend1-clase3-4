@@ -158,7 +158,44 @@ main>section{
 .info a{
     width: 6%;
 }
-
+.content-post{
+    width: 100%;
+    text-align: center;
+}
+.content-post img{
+    height: 488px;
+    width: 488px;
+    margin: 20px 0 10px;
+}
+.interact{
+    display: flex;
+    width: 488px;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.icons i{
+    color:black;
+    font-size: 1.5em;
+    padding-right: 12px;
+}
+.liked, .comments-count{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+}
+.liked{
+    margin-top: 10px;
+}
+.comments-count{
+    margin: 10px 0;
+    color: var(--colorsecundario);
+}
+.comments{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 main>aside {
     grid-column: 2/3;
