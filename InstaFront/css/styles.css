@@ -99,10 +99,10 @@ h1 {
 main {
     max-width:1240px;
     padding: 109px;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     gap: 109px;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 6fr 4fr;
     column-gap: 109px;
 }
 main>section{
@@ -126,7 +126,7 @@ main>section{
 }
 .post{
     margin-top: 40px;
-    height: 720px;
+    height: 740px;
     width: 100%;
     background-color: #FFFFFF;
     border: var(--colorterciario) solid 0.4px;
@@ -158,45 +158,80 @@ main>section{
 .info a{
     width: 6%;
 }
-.content-post{
+.contenido-post{
     width: 100%;
     text-align: center;
 }
-.content-post img{
+.contenido-post img{
     height: 488px;
     width: 488px;
     margin: 20px 0 10px;
 }
-.interact{
+.interaccion{
     display: flex;
     width: 488px;
     margin: 0 auto;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-.icons i{
+.iconos i{
     color:black;
     font-size: 1.5em;
     padding-right: 12px;
 }
-.liked, .comments-count{
+.gusto, .cuenta-de-comentarios{
     font-family: 'Inter';
     font-size: 12px;
     font-weight: 400;
 }
-.liked{
+.gusto{
     margin-top: 10px;
 }
-.comments-count{
+.cuenta-de-comentarios{
     margin: 10px 0;
     color: var(--colorsecundario);
 }
-.comments{
+.comentarios{
     font-family: 'Inter';
     font-size: 12px;
     font-weight: 400;
-    padding-bottom: 10px;
+    line-height: 22px;
 }
 main>aside {
+    display: flex;
     grid-column: 2/3;
+    flex-direction: column;
 }
+.usuario-info{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+.usuario-info img,.otro-usuario-info img{
+    height: 100%;
+    border-radius: 50%;
+}
+.usuario-info div{
+    width: 100%;
+    padding: 10px 13px 0;
+}
+.usuario-info h5{
+    line-height: 25px;
+    font-size: 12px;
+}
+.usuario-info p{
+    color: var(--colorsecundario);
+    font-size: 12px;
+    font-weight: 500;
+}
+.usuario-info a{
+    align-self: center;
+    text-decoration: none;
+    font-weight: 500;
+}
+.sugerencias{
+    padding: 30px 0;
+    width: 100%;
+}
+
