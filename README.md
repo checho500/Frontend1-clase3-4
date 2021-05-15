@@ -11,3 +11,4 @@ En esta materia nos proponemos adquirir las tecnologías que necesitamos para cu
 - **Animaciones:** Ejercicio agregando animaciones un sitio web [**ENLACE**](https://checho500.github.io/Frontend-I/Animaciones/index.html)
 - **Media Queries:** Ejercicio agregando media queries [**ENLACE**](https://checho500.github.io/Frontend-I/MediaQueries/index.html)
 - **FrontCat&Dog:** Ejercicio integrador [**ENLACE**](https://checho500.github.io/Frontend-I/Final/index.html)
+- **InstaFront:** Ejercicio usando display grid [**ENLACE**](https://checho500.github.io/Frontend-I/InstaFront/index.html)
