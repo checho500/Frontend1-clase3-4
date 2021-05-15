@@ -234,4 +234,25 @@ main>aside {
     padding: 30px 0;
     width: 100%;
 }
-
+.sugerencias h4{
+    color: var(--colorsecundario);
+}
+.otro-usuario-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.otro-usuario-info img{
+    padding-top: 10px;
+}
+.otro-usuario-info h5{
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+}
+.otro-usuario-info a{
+    align-self: center;
+    text-decoration: none;
+    font-weight: 500;
+}
